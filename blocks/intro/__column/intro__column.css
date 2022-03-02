@@ -1,0 +1,14 @@
+.intro__column {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 690px;
+}
+
+@media screen and (max-width: 768px) {
+    .intro__column {
+        max-width: 720px;
+    }
+}
