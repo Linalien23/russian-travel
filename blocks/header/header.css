@@ -11,3 +11,16 @@
         padding: 28px 24px 0 24px;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+        margin: 16px auto 0 auto;
+        padding: 0 16px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: 320px;
+    }
+}
