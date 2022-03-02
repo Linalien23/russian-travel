@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/fonts/fonts.css);
+@import url('https://rsms.me/inter/inter.css');
 @import url(../blocks/root/root.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/page/page.css);

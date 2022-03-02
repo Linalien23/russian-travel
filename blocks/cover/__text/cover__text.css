@@ -4,7 +4,6 @@
     align-self: center;
     justify-self: center;
     color: #ffffff;
-    z-index: 1;
 }
 
 @media screen and (max-width: 768px) {
