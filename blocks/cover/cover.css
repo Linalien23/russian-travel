@@ -28,3 +28,25 @@
 .cover:hover::before {
     opacity: 0.8;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        margin-top: 86px;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        margin-top: 90px;
+        margin-bottom: 88px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .cover {
+        margin-top: 66px;
+        margin-bottom: 64px;
+    }
+}
+

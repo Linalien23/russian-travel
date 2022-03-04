@@ -2,6 +2,7 @@
     background-color: #2A2C2F;
     display: flex;
     margin: auto;
+    margin-bottom: 92px;
     padding-top: 92px;
     max-width: 984px;
 
@@ -11,6 +12,7 @@
     .intro {
         max-width: calc(928/1024*100%);
         padding-top: 82px;
+        margin-bottom: 82px;
     }
 }
 
@@ -18,11 +20,13 @@
     .intro {
         max-width: calc(720/768*100%);
         padding-top: 88px;
+        margin-bottom: 88px;
     }
 }
 
 @media screen and (max-width: 375px) {
     .intro {
         padding-top: 64px;
+        margin-bottom: 64px;
     }
 }
