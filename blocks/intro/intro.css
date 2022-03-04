@@ -1,7 +1,7 @@
 .intro {
     background-color: #2A2C2F;
     display: flex;
-    margin: 0 auto;
+    margin: auto;
     padding-top: 92px;
     max-width: 984px;
 
@@ -9,8 +9,15 @@
 
 @media screen and (max-width: 1024px) {
     .intro {
-        width: calc(928/1024*100%);
+        max-width: calc(928/1024*100%);
         padding-top: 82px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        max-width: calc(720/768*100%);
+        padding-top: 88px;
     }
 }
 
