@@ -2,7 +2,7 @@
     position: relative;
     color: #fff;
     max-width: 1184px;
-    margin: 91px auto auto;
+    margin: 92px auto 92px;
     background-image:  url(../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -47,6 +47,6 @@
     .cover {
         margin-top: 66px;
         margin-bottom: 64px;
+
     }
 }
-
